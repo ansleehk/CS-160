@@ -1,0 +1,54 @@
+openapi: '3.0.2'
+info:
+  title: CS 160 KeyLink
+  version: '1.0'
+servers:
+  - url: '{{protocol}}://{{server_host_name}}'
+    variables:
+      server_host_name:
+        default: localhost
+        enum:
+          - localhost
+      protocol:
+        default: http
+        enum:
+          - https
+          - http
+paths:
+  /article-visual/temp:
+    post:
+      tags:
+        - PDF to Diagram
+      summary: Get article visual
+      operationId: getArticleVisual
+      requestBody:
+        content:
+          application/pdf:
+            schema:
+              type: string
+              format: binary
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  mermaid_code:
+                    type: string
+        '500':
+          description: Internal Server Error. Mermaid diagram cannot be generated.
+
+
+
+tags:
+  - name: PDF to Diagram
+    description: Generate diagrams from PDFs using ChatGPT capabilities
+  - name: PDF CRUD
+    description: CRUD operations for PDFs
+  - name: Mermaid to SVG
+    description: Convert Mermaid diagram to SVG image
+  - name: User Authentication/ Registration
+    description: User authentication and registration operations
+

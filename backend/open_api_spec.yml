@@ -19,8 +19,8 @@ paths:
     post:
       tags:
         - PDF to Diagram
-      summary: Get article visual
-      operationId: getArticleVisual
+      summary: Send a PDF and Get a Diagram
+      description: A temporary API endpoint for handling diagram generation for PDF file
       requestBody:
         content:
           application/pdf:

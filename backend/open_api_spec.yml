@@ -8,7 +8,7 @@ servers:
       server_host_name:
         default: localhost
         enum:
-          - localhost
+          - localhost # Localhost server
       protocol:
         default: http
         enum:

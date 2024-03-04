@@ -3,7 +3,7 @@ info:
   title: CS 160 KeyLink
   version: '1.0'
 servers:
-  - url: '{{protocol}}://{{server_host_name}}'
+  - url: '{protocol}://{server_host_name}'
     variables:
       server_host_name:
         default: localhost

@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "e8ab1804-a15d-4e80-9fe8-27a8deefd37d",
+		"name": "Article Visualisation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Temp",
+			"item": [
+				{
+					"name": "Upload PDF",
+					"id": "60619476-1f52-4705-8086-ec99530d1bfd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/anson/Desktop/SJSU Drive/CS-160/Project/article-visualisation-backend/src/test/resources/test.pdf"
+								}
+							]
+						},
+						"url": "{{hostname}}:{{port}}/uploadPdf"
+					},
+					"response": []
+				}
+			],
+			"id": "0d28a2a8-4ccc-4512-b51f-74f036e747f9"
+		}
+	]
+}

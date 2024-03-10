@@ -27,7 +27,7 @@
 								}
 							]
 						},
-						"url": "{{hostname}}:{{port}}/uploadPdf"
+						"url": "{{protocol}}://{{hostname}}:{{port}}/article-visual/uploadPdf"
 					},
 					"response": []
 				}

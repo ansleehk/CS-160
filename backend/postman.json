@@ -15,7 +15,7 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "formdata",
@@ -23,11 +23,11 @@
 								{
 									"key": "file",
 									"type": "file",
-									"src": "/Users/anson/Desktop/Sample.pdf"
+									"src": "/Users/anson/Desktop/SJSU Drive/CS-160/Project/article-visualisation-backend/Sample.pdf"
 								}
 							]
 						},
-						"url": "{{protocol}}://{{hostname}}/uploadPdf"
+						"url": "{{protocol}}://{{hostname}}:{{port}}/uploadPdf"
 					},
 					"response": []
 				}

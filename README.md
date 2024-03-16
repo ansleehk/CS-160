@@ -28,7 +28,7 @@ Generate Diagrams from PDF files using ChatGPT
 
 Validate mermaid code
 
-[GitHub Repo](https://github.com/ansleehk/CS-160-Article-Visual-Backend)
+[GitHub Repo](https://github.com/ansleehk/CS-160-Mermaid-Validator)
 
 ### Frontend Application
 

@@ -24,7 +24,7 @@ Generate Diagrams from PDF files using ChatGPT
 
 *Category: Backend*
 
-*Programming Language: JavaScript (Node.js)*
+*Programming Language: TypeScript*
 
 Validate mermaid code
 

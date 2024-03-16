@@ -14,12 +14,26 @@ For students who want to quickly understand articles, KeyLink is a service that 
 
 *Category: Backend*
 
+*Programming Language: Java*
+
 Generate Diagrams from PDF files using ChatGPT
+
+[GitHub Repo](https://github.com/ansleehk/CS-160-Article-Visual-Backend)
+
+### Mermaid Validator
+
+*Category: Backend*
+
+*Programming Language: JavaScript (Node.js)*
+
+Validate mermaid code
 
 [GitHub Repo](https://github.com/ansleehk/CS-160-Article-Visual-Backend)
 
 ### Frontend Application
 
 *Category: Frontend*
+
+*Programming Language: JavaScript (ReactJs)*
 
 [GitHub Repo](https://github.com/ansleehk/CS-160-Frontend)

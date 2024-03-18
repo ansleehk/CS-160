@@ -27,7 +27,7 @@
 								}
 							]
 						},
-						"url": "https://wgnaxglgm4.execute-api.us-east-1.amazonaws.com/production/uploadPdf"
+						"url": "https://wgnaxglgm4.execute-api.us-east-1.amazonaws.com/uploadPdf"
 					},
 					"response": []
 				}

@@ -34,7 +34,7 @@
 								}
 							]
 						},
-						"url": "localhost:8080/uploadPdf"
+						"url": "{{protocol}}://{{hostname}}/uploadPdf"
 					},
 					"response": []
 				}

@@ -27,7 +27,7 @@
 								}
 							]
 						},
-						"url": "{{protocol}}://{{hostname}}:8080/uploadPdf"
+						"url": "{{protocol}}://{{hostname}}:{{port}}/uploadPdf"
 					},
 					"response": []
 				}

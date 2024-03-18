@@ -34,7 +34,7 @@
 								}
 							]
 						},
-						"url": "localhost:8080/uploadPdf"
+						"url": "https://d1doi45x0nyjfu.cloudfront.net/uploadPdf"
 					},
 					"response": []
 				}

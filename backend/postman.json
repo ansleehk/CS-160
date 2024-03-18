@@ -34,7 +34,7 @@
 								}
 							]
 						},
-						"url": "https://hdbnlbixq2.execute-api.us-east-1.amazonaws.com/uploadPdf"
+						"url": "localhost:8080/uploadPdf"
 					},
 					"response": []
 				}

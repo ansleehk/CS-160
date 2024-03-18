@@ -27,7 +27,7 @@
 								}
 							]
 						},
-						"url": "{{protocol}}://{{hostname}}/uploadPdf"
+						"url": "https://wgnaxglgm4.execute-api.us-east-1.amazonaws.com/uploadPdf"
 					},
 					"response": []
 				}
